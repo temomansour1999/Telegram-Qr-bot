@@ -10,7 +10,7 @@ from telegram import Update, ReplyKeyboardMarkup, ReplyKeyboardRemove, InlineKey
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, ConversationHandler, CallbackQueryHandler
 
 # Your bot token - get this from BotFather
-TOKEN = os.getenv('BOT_TOKEN')
+TOKEN ="8423460075:AAG_vFGAuEM1ENqb6IqI29GztbTbHD6eoiI"
 
 # Your channel info (optional - you can remove if causing issues)
 CHANNEL_USERNAME = "@your_channel_username"
@@ -312,4 +312,5 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
+
 
