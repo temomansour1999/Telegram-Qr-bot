@@ -11,7 +11,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 
 # Your bot token - get this from BotFather
 TOKEN = os.getenv("BOT_TOKEN")
-
+print("Loaded TOKEN:", TOKEN)
 # Your channel info (optional - you can remove if causing issues)
 CHANNEL_USERNAME = "@your_channel_username"
 CHANNEL_LINK = "https://t.me/your_channel_username"
@@ -312,6 +312,7 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
+
 
 
 
