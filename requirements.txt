@@ -1,7 +1,5 @@
 python-telegram-bot==20.7
-Flask
+Flask==3.0.2
 qrcode
 Pillow
 requests
-
-
